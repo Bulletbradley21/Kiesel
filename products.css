@@ -1,0 +1,144 @@
+/*
+Author: Bradley Griffith
+MSU Denver login name: jgriff56
+Date Created: 5/4/2017
+Date Due: 5/6/2017
+Modified: 5/5/2017
+Filename: products.css
+Purpose: For HomePage Project Assignment in CIS3030
+Editor: Sublime Text (Mac)
+*/
+
+body{
+	
+		background-color: #2b2a2a;
+		width: 1400px;
+}  
+
+header{
+	background: url(klogo1.jpg) no-repeat;
+	background-position: center;
+	margin-left: 160px;
+	-o-background-size: 1010px;
+	-moz-background-size: 1010px;
+	-webkit-background-size: 1010px;
+	background-size: 1010px; 
+
+		
+-webkit-box-shadow: -2px 3px 33px 12px rgba(163,160,163,0.68);
+-moz-box-shadow: -2px 3px 33px 12px rgba(163,160,163,0.68);
+box-shadow: -2px 3px 33px 12px rgba(163,160,163,0.68);
+	
+	margin-top: 30px;
+	text-align: right;
+	float: center;
+	height: 285px;
+	width: 1000px;
+}
+
+nav.vertical li a:hover {
+		color: black;
+		cursor: pointer;	
+}
+
+nav.vertical li:hover{ 
+	text-decoration: italic;
+	background-color: red;
+}
+	
+nav.vertical li a{
+
+	text-decoration: none;
+	color: white;
+}
+nav.vertical li {
+			background-color: maroon;
+			font-size: 95%;
+			align-content: center;
+			padding-top: 10px;
+			float: center;
+			text-align: center;
+			height: 40px;
+			width: 500px;
+			border: 5px groove black;
+			list-style-type: none;
+
+	-moz-border-radius: 7px;
+	-webkit-border-radius: 7px;
+	border-radius: 7px;	
+}
+
+nav.vertical ul{
+	margin-left: 370px;
+}
+
+
+section {
+   float: left;
+   margin-left: 290px;
+}
+
+section h1 {
+   color:white; 
+   font-size: 24px;
+   letter-spacing: 5px; 
+   margin-bottom: 9px; 
+   margin-top: 10px;   
+}
+
+table {
+   border: 10px groove maroon; 
+   font-size: 14px; 
+   margin-top: 0px; 
+   margin-bottom: 20px;
+   width: 600px;
+   margin-left: 80px;
+}
+
+th {
+   background-color: maroon; 
+   color: white; 
+   font-weight: normal;
+   letter-spacing: 2px;
+   padding: 5px;
+}
+
+td {
+   vertical-align: top; 
+   background-color: white;
+   padding: 5px;
+}
+
+td a {
+   text-decoration: none; 
+}
+
+td a:hover {
+   color:blue;
+   text-decoration: underline; 
+}
+
+td.center {
+   text-align: center;
+}
+footer{
+	clear: left;
+	margin-left: 420px;
+	width: 600px;
+}
+
+footer address{
+		color:white;
+		background-color: iceblue;
+	
+		-o-background-size: 1177px;
+		-moz-background-size: 1177px;
+		-webkit-background-size: 1177px;
+		background-size: 1177px;
+		margin-left: 100px
+	
+		font-size: 90%;
+		font-style: normal;
+		padding-top: 10px;
+		text-align: center;
+}

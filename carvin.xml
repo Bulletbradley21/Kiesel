@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- 
+Author: Bradley Griffith
+MSU Denver login name: jgriff56
+Date Created: 5/4/2017
+Date Due: 5/6/2017
+Modified: 5/5/2017
+Filename:  carvin.xml
+Purpose: For HomePage Project Assignment in CIS3030
+Editor: Sublime Text (Mac)
+-->
+
+<?xml-stylesheet type="text/css" href="carvin.css" ?>
+
+<kiesel_info >
+	<title>Guitars + Basses In Stock</title>
+	<subtitle>A record of the guitars and basses that are ready for shipment now.</subtitle>
+	
+	<guitars>
+	  <guitar>
+		<name>Kiesel Custom One-Off Guitar</name>
+		<weight>14.8 lbs.</weight>
+		<price>$8,499.00</price>
+	   </guitar>
+
+	  <guitar>
+		<name>Aries 24 Fret Bolt-On Neck Guitar w/ Floyd Rose Tremolo</name>
+		<weight>7.3 lbs.</weight>
+		<price>$1,349.00</price>
+	   </guitar>
+
+	   <guitar>
+		<name>Aries 24 Fret Bolt-On Neck Guitar</name>
+		<weight>6.8 lbs.</weight>
+		<price>$1,089.00</price>
+	   </guitar>
+
+	  <guitar>
+		<name>Aries 24 Fret Bolt-On Neck Guitar</name>
+		<weight>6.6 lbs.</weight>
+		<price>$2,289.00</price>
+	   </guitar>
+
+	  <guitar>
+		<name>Aries 24 Fret Bolt-On Neck Guitar</name>
+		<weight>7.4 lbs.</weight>
+		<price>$1,579.00</price>
+	   </guitar>
+
+	  <guitar>
+		<name>Aries 24 Fret Bolt-On Neck 7-String Guitar</name>
+		<weight>8.5 lbs.</weight>
+		<price>$2,274.00</price>
+	   </guitar>
+
+	  <guitar>
+		<name>Aries 24 Fret Bolt-On Neck 7-String Guitar</name>
+		<weight>7.4 lbs.</weight>
+		<price>$2,499.00</price>
+	   </guitar>
+
+	  <guitar>
+		<name>Aries 24 Fret Multiscale Fanned-Fret Bolt-On Neck 7-String Guitar</name>
+		<weight>8.3 lbs.</weight>
+		<price>$1,339.00</price>
+	   </guitar>
+
+	 </guitars>
+		<message>
+		<![CDATA[
+				Refresh the page to make sure somebody didn't buy a guitar seconds ago!		
+		]]>&#9730;
+		</message>
+</kiesel_info>

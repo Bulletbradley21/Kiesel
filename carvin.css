@@ -1,0 +1,71 @@
+/*
+Author: Bradley Griffith
+MSU Denver login name: jgriff56
+Date Created: 5/4/2017
+Date Due: 5/6/2017
+Modified: 5/5/2017
+Filename: carvin.css
+Purpose: For HomePage Project Assignment in CIS3030
+Editor: Sublime Text (Mac)
+*/
+
+
+kiesel_info {
+   display: block; 
+   border: 5px ridge maroon; 
+   font-family: Georgia, serif; 
+   width: 500px; 
+   margin: 10px;
+   padding-bottom: 12px;
+}        	 
+title {
+   display: block; 
+   width: 400px;   
+   font-size: 18pt;
+   margin-left: 20px;
+}
+subtitle {
+   display: block; 
+   width: 400px;  
+   font-size: 14pt; 
+   font-style: italic;
+   margin-left: 20px;
+}
+number {
+   font-size: 10pt; 
+   color: royalblue; 
+   text-align: right; 
+   margin-left: 20px; 
+	font-style: oblique;
+   margin-top: 10px;
+}
+name{
+   display: inline-block; 
+   width: 400px;  
+   font-size: 14pt; 
+   color: black; 
+   border-bottom: 2px solid red;
+   padding-top: 15px; 
+   margin-left: 20px;
+}
+weight {
+   display: list-item; 
+   font-family: Times New Roman, Times, Serif; 
+   font-size: 12pt; 
+   list-style-type: square; 
+   color: gray; 
+   margin-left: 50px;
+}
+
+price {
+   display: block; 
+   width: 400px; 
+   font-family: Times New Roman, Times, Serif;
+   font-size: 9pt; 
+   color: red; 
+   border-top: 2px solid red;
+   padding-top: 5px; 
+   margin-left: 20px; 
+   margin-top: 15px;
+}
+      

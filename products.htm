@@ -1,0 +1,98 @@
+<!doctype html>
+<!-- 
+Author: Bradley Griffith
+MSU Denver login name: jgriff56
+Date Created: 5/4/2017
+Date Due: 5/6/2017
+Modified: 5/5/2017
+Filename: products.htm
+Purpose: For HomePage Project Assignment in CIS3030
+Editor: Sublime Text (Mac)
+-->
+<html>
+<head>
+   <meta charset="utf-8">
+      <title>Kiesel Products</title>
+   <link href="products.css" rel="stylesheet" type="text/css" >
+   <script src="random.js" type="text/javascript"></script>
+
+      <script type="text/javascript">
+        var letterImg = 5;
+        /** Show the img tag with the random elements */
+        function showImg() {
+          document.write("<img src='" + randomInteger() + ".png' />");
+        }
+      </script>
+
+</head>
+
+<body>
+<header><em><strong> Kiesel Products </strong></em></header>
+
+      <nav class="vertical">    
+         <ul>
+           <li><a href="kiesel.htm">Home</a></li>
+            <li><a href="guitar.htm">Why Choose Kiesel</a></li>
+           <li><a href="products.htm">Kiesel Products</a></li>
+           <li><a href="carvin.xml" target="_blank">The Guitars</a></li>
+         </ul>
+      </nav>
+      
+      <section>
+         <h1>Log in and see the oppurtunites ahead!</h1>
+         <p>View our guitars by entering your username and password</p>
+
+         <table>
+            <tr>
+               <th>Username</th>
+               <td><input size="20" /></td>
+            </tr>
+            <tr>	
+               <th>Password</th>
+               <td><input type="password" size="20" /></td>
+            </tr>
+            <tr>
+               <td>Enter the 5 numbers 
+                   you see displayed below.</td>
+               <td><input size="5" /></td>
+            </tr>
+            <tr>
+               <td colspan="2" class="center">
+                  <input type="button" value="New User?/Sign Up?" />
+               </td>
+            </tr>            
+            <tr>
+               <td colspan="2" class="center">
+                  <input type="button" value="Reset/Forgot Password?" />
+               </td>
+            </tr>
+            <tr>
+               <td colspan="2" class="center">
+                  <input type="button" value="Go Shopping" />
+               </td>
+            </tr>
+            <tr>
+               <td colspan="2" class="center">
+
+         <script type="text/javascript">
+				showImg();
+				showImg();
+				showImg();
+				showImg();
+				showImg();
+			</script>
+               </td>
+            </tr>
+
+         </table>
+      </section>
+      <footer>
+        <address>
+            Kiesel Guitars &nbsp;&#9730;&nbsp;
+            2015 Aldergrove Avenue &nbsp;&#9730;&nbsp;
+            Escondido, CA 92029-1902 &nbsp;&#9730;&nbsp;
+            Phone: 858-484-8277
+        </address>
+      </footer>     
+   </body>
+</html>

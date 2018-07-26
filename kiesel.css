@@ -1,0 +1,150 @@
+/*
+Author: Bradley Griffith
+MSU Denver login name: jgriff56
+Date Created: 5/4/2017
+Date Due: 5/6/2017
+Modified: 5/5/2017
+Filename: kiesel.css
+Purpose: For HomePage Project Assignment in CIS3030
+Editor: Sublime Text (Mac)
+*/
+body{
+	
+		background-color: #2b2a2a;
+		width: 1400px;
+}  
+
+header{
+	background: url(klogo1.jpg) no-repeat;
+	background-position: center;
+	margin-left: 160px;
+	-o-background-size: 1010px;
+	-moz-background-size: 1010px;
+	-webkit-background-size: 1010px;
+	background-size: 1010px; 
+
+		
+-webkit-box-shadow: -2px 3px 33px 12px rgba(163,160,163,0.68);
+-moz-box-shadow: -2px 3px 33px 12px rgba(163,160,163,0.68);
+box-shadow: -2px 3px 33px 12px rgba(163,160,163,0.68);
+	
+	margin-top: 30px;
+	text-align: right;
+	float: center;
+	height: 285px;
+	width: 1000px;
+}
+	
+	
+#homeSet{
+	background-color: silver;
+	clear: center;
+	float: center;
+	margin-left: 70px;
+	width: 80%;
+	text-align: left;
+	
+	-moz-border-radius: 7px;
+	-webkit-border-radius: 7px;
+	border-radius: 7px;	
+}	
+
+#homeSet h1{
+		font-family: 'Gill Sans', 'Apple Chancery', cursive;
+		font-size: 150%;
+		font-weight: bold, italic;
+		margin: 10px 0px 0px 10px;
+
+}
+
+
+#homeSet p{
+		font-size: 97.5%;	
+		margin: 0px 10% 20px 10%;
+		text-align-last: center;
+}	
+
+
+nav.vertical li a:hover {
+		color: black;
+		cursor: pointer;	
+}
+
+nav.vertical li:hover{ 
+	text-decoration: italic;
+	background-color: red;
+}
+	
+nav.vertical li a{
+
+	text-decoration: none;
+	color: white;
+}
+nav.vertical li {
+			background-color: maroon;
+			font-size: 95%;
+			align-content: center;
+			padding-top: 10px;
+			float: center;
+			text-align: center;
+			height: 40px;
+			width: 500px;
+			border: 5px groove black;
+			list-style-type: none;
+
+	-moz-border-radius: 7px;
+	-webkit-border-radius: 7px;
+	border-radius: 7px;	
+}
+
+nav.vertical ul{
+	margin-left: 330px;
+}
+
+footer{
+	clear: left;
+	margin-left: 15%;
+	width: 74%;
+}
+
+figure img{
+	border: 8px outset maroon;
+	display: block;
+	margin: 30px auto 10px;
+	width: 70%;
+	
+	-o-background-size: 850px;
+	-moz-background-size: 850px;
+	-webkit-background-size: 850px;
+	background-size: 850px; 
+	
+	
+	-moz-box-shadow: rgb(0, 0, 0, 0.6) 10px 10px 15px;
+	-webkit-box-shadow: rgba(0, 0, 0, 0.6) 10px 10px 15px;
+	box-shadow: rgba(0, 0, 0, 0.6) 10px 10px 15px;
+}
+
+
+figure figcaption {
+	font-size: 18pt;
+	font-style: bold;
+	text-transform: capitalize;
+	text-align: center;
+}
+footer address{
+		color: black;
+		background-color: silver;
+	
+		-o-background-size: 300px;
+		-moz-background-size: 300px;
+		-webkit-background-size: 300px;
+		background-size: 300px;
+
+		font-size: 14pt;
+		margin-right: 150px;
+		font-style: Times;
+		padding-top: 11px;
+		text-align: center;
+}
+
+
